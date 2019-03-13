@@ -34,7 +34,6 @@ VIRTUAL MACHINES
 2	15	32	0<br>
 <br>
 <br>
-
 Let's call this datacenter file of **4x8.vmp** that is a datacenter with 4 PMs and 8 VMs. The 4 existing lines in the PMs part indicate the resources values for each of the PMs in datacenter. And the sequence in each line represents, respectively: Number of Processors (in the example of the first line, 12), Memory Quantity (in the example of the first line, 512), Disk Capacity (in the example of the first line, 10000) and Energy Consumption (in the example of the first line, 1000). Each row is associated with the resources available from one PM.
 
 The 4 columns in the lines of the VMs part indicate the possible values for required resources by each of VMs in the datacenter. The sequence of these 4 columns represents, respectively: Number of Virtual Processors (in the example of the first line, 4), Memory Amount (in the example of the first line, 15), Disk Capacity (in the example of the first line, 80) and the flag that indicates if the VM run critical services (1) or not (0).

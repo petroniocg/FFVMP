@@ -112,11 +112,6 @@ int main (int argc, char *argv[]) {
 		//print_int_array_line(P, v_size);
 		print_int_array_line_file(P, v_size);
 
-		CM = calculates_commitment(P, h_size, v_size, V, CRITICAL_SERVICES);
-
-		//printf("\n====> COMMITMENT MATRIX UPDATED  <=====\n");		
-		//print_float_array(CM, h_size);
-
 		/* Additional task: calculate the cost of each objective function for each solution */
 		float *objectives_functions_P = load_objectives(P, utilization_P, CM, H, V, h_size, v_size, CRITICAL_SERVICES);
 		
