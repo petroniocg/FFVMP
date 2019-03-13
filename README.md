@@ -48,7 +48,7 @@ $ ./ffvmp input/4x8.vmp
 
 where, **4x8.vmp** was the name given to the file with the datacenter configuration.
 
-_c)_ The program will generate a file in the folder **/output** with the name **ffvmp_result** which has many informations about the results and, of course, the placement indication. With this example, the placement result is like this:
+_c)_ The program will generate a file in the folder **/results** with the name **ffvmp_result** which has many informations about the results and, of course, the placement indication. With this example, the placement result is like this:
 
 ****** Solution P ******<br>
 1 1 2 2 2 3 2 3<br>
